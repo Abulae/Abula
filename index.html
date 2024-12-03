@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+     <a href="index.html"><h1 class="logo">My Portfolio</h1></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <br>
+  <section id="hero" class="hero">
+    <div class="container">
+        <h1>Hi, my name is " Yamman " and I am a passionate</h1>
+        <br>
+        <div class="typing-animation">
+            <span id="typed"></span>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script id="visualize">
+            var typed = new Typed("#typed", {
+                strings: ["Programmer", "Problem Solver","Developer"],
+                typeSpeed: 50,
+                backSpeed: 45,
+                loop: true,
+            });
+    
+
+        </script>
+        <br>
+        <p>I'm a passionate C and C++ developer who loves building amazing projects. Along with desie to excel in problem-solving I have deep intrest in Data Analysis.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I am a beginner in programming with keen intrest in game development. My goal is to create impactful and innovative solutions and engaing video games. 
+        When I'm not coding, I enjoy reding books, going on a walk and watch movies.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-list">
+        <div class="project-item">
+          <h3>Project 1</h3>
+          <p><h5>Description</h5>Create a personal portfolio website with basic sections like an "About Me" page, projects, skills, and a contact form.
+
+            <h5>Tools</h5> HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project-item">
+          <h3>Project 2</h5>
+          <p><h5>Description</h5>Build a small app that fetches weather data using an API (like OpenWeather) and displays the forecast for a given city.
+            <h5>Tools</h5>Python (requests module) or JavaScript (fetch API).
+            </p>
+        </div>
+        <div class="project-item">
+          <h3>Project 3</h3>
+          <p><h5>Description</h5>Develop a program to store, retrieve, and update student grades in a class using a basic command-line interface.
+            <h5>Tools</h5>C++ or Python, file handling for data storage.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Contact Me Section -->
+<section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you would like to work with me or have any questions, feel free to reach out!</p>
+      <div class="content">
+        <!-- Left: Contact Form -->
+        <div class="contact-form">
+          <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+  
+        <!-- Right: Social Media Buttons with Logos -->
+
+        <div>
+          <h3 class="address">Plot No 11/C-4 Above Meezan<br> Bank Nazimabad No 4 Karachi, Sindh </h3>
+
+        </div>
+         
+        <div class="social-links">
+          <a href="https://github.com" target="_blank" class="btn"><img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" alt="GitHub" /></a>
+          <a href="https://linkedin.com" target="_blank" class="btn"><img src="https://static.vecteezy.com/system/resources/previews/018/930/480/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn" /></a>
+          <a href="https://instagram.com" target="_blank" class="btn"><img src="https://img.freepik.com/premium-vector/instagram-logo-vector_768467-330.jpg?semt=ais_hybrid" alt="Instagram" /></a>
+          <a href="https://twitter.com" target="_blank" class="btn"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/2491px-Logo_of_Twitter.svg.png" alt="Twitter" /></a>
+          <a href="https://facebook.com" target="_blank" class="btn"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" alt="Facebook" /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 [Yamman Ahmed]. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

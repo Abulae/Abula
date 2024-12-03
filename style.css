@@ -1,0 +1,236 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    background-color: aliceblue;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .typing-animation{
+                      font-size: 40px;
+                      text-align: left;
+                      color: black;
+                      text-decoration: solid;
+  }
+
+  /* Navbar */
+  .navbar {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position:fixed;
+    width: 100%;
+  }
+  
+  .navbar .logo {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    float: right;
+    margin-top: -30px;
+
+  }
+  
+  .navbar .nav-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://cdn.prod.website-files.com/659f77ad8e06050cc27ed531/65ef63f6bd30ab838939a4ae_Developer%20productivity%20tools%202024.webp') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0rem;
+    margin-top: 8px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    padding: 5rem 1rem;
+
+
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    background: #007BFF;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 12rem 1rem;
+    background: #7bb8aa;
+  }
+  
+  .about h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap-reverse;
+
+  }
+  
+  .about p {
+    text-align: center;
+    line-height: 1.8;
+  }
+  
+  /* Projects Section */
+  .projects {
+    padding: 3rem 1rem;
+  }
+  
+  .projects h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .project-list {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .project-item {
+    flex: 1;
+    padding: 1.5rem;
+    background: #f9f9f9cb;
+    border: 1px solid #ddddddbd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .contact {
+    background-color: #58b685; /* Green background */
+    color: white; /* Text color */
+    padding: 30px;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    display: flex;
+    align-items: flex-start; /* Align form and buttons in a row */
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .contact-form {
+    flex: 3; /* Form takes more space */
+  }
+  
+  .social-links {
+    flex: 1; /* Social links take less space */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 146px;
+    margin-left: 20px;
+  }
+
+  .address{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: -269px;
+    position: relative;
+    left: 309px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #004d91; /* Blue button */
+    color: white;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #003366; /* Darker blue */
+  }
+  
+  .social-links a {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .social-links img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%; /* Makes logos circular */
+    background-color: white; /* Background to make them pop */
+    padding: 5px;
+    transition: transform 0.3s;
+  }
+  
+  .social-links img:hover {
+    transform: scale(1.2); /* Enlarge on hover */
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  
